@@ -64,7 +64,7 @@ class List extends Component {
                         <div className='form-element'><b>Direccion</b></div>
                         <div className='form-element'><b>Acción</b></div>
                     </div>
-
+                    <Lista carnet="9134421" nombre="Romel Diego Rodriguez" cargo="Administrador" contacto="78993708" direccion="Av. 20 de octubre"/>
                 </section>
             </div>
         );
