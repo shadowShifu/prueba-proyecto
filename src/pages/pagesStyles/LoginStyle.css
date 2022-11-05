@@ -1,0 +1,43 @@
+.section-login{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 3, 121);
+    height: 100vh;
+    width: 100%;
+}
+.login{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 6%;
+    border-radius: 5%;
+    width: 25%;
+    height: 13%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login button{
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 89, 0);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.login button a{
+    text-decoration: none;
+    height: 35px;
+    background-color: rgb(255, 89, 0);
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.scanner{
+    width: 400px;
+    height: 400px;
+}

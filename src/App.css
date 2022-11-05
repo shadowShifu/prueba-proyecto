@@ -1,36 +1,113 @@
-.App {
+.App-header {
+  position: relative;
+  background-color: #00000011;
+  height: 100vh;
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  color: black;
+
+  /* #282c34 */
+}
+
+.header{
+  width: 100%;
+  height: 10%;
+  background-color: rgb(255, 34, 18);
+  display: flex;
+}
+
+.ico-menu{
+  font-size: 3em;
+  margin-left: 15%;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.ico-exit{
+  font-size: 3em;
+  margin-left: auto;
+  margin-top: auto;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.barra {
+  font-family: 'Lato', sans-serif;
+  width:10%;
+  height:9%;
+  position:fixed;
+  transition: .4s all ;
+  border-radius: 0 26px 26px 0;
+  border-color: #2dfff4;
+  z-index: 1;  
+}
+
+.barra .logo{
+  display: none;  
+  margin: 5% auto; 
+}
+
+.barra ul{
+  padding:0px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.barra  li{
+  transition:all .3s;
+  list-style: none; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.barra a{
+  text-decoration: none;
+  font-weight: normal;
+  transition: .3s all ;
+  font-size: 0px;
+  padding:0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.barra:hover{
+  width: 25%;
+  height: 100vh;
+  background: rgb(255, 255, 255);
+  border-top: solid 20px rgb(5, 87, 149);
+  border-right: solid 40px rgb(5, 87, 149);
+  
+}
+
+.barra:hover .logo{
+  display: block;
+  border-radius: 50%;
+}
+
+.barra:hover a{ 
+  font-size:20px ;
+  color:rgb(0, 0, 0);
+  display: block;
+  padding:20px;
+}
+.barra:hover .ico-menu{
+  height:0px;
+}
+
+.barra:hover li{
+  border-bottom:1px solid rgb(5, 87, 149);
+  width:100%;
+  cursor: pointer; 
+}
+
+
+.barra:hover a:hover{ 
+  font-size: 25px;
+  padding: 30px 0px; 
+  background: rgb(255, 94, 0);  
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 768px){
+  .barra:hover{
+    width: 30%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .barra:hover .logo{
+    height: 190px;
   }
 }

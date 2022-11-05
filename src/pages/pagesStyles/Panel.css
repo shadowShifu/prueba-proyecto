@@ -1,0 +1,49 @@
+.section-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-panel{
+    background-color: rgba(0, 51, 255, 0.8);
+    width: 380px;
+    height: 50%;
+    border-radius: 5%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cont-panel label{
+    font-size: calc(10px + 1vmin);
+    color: white;
+    margin-right: auto;
+}
+
+.cont-panel p{
+    font-size: calc(17px + 1vmin);
+    color: rgb(185, 185, 185);
+    border: 1px solid white;
+    padding: 2%;
+    border-radius: 5px;
+    width: 100%;
+}
+.cont-panel button{
+    background-color: rgb(255, 255, 255);
+    font-size: 0.8em;
+    color: black;
+    border: 2px solid black;
+    padding: 2%;
+    border-radius: 15px;
+    height: 60px;
+    width: 200px;
+}
+
+.cont-panel button:hover{
+    background-color: rgb(255, 64, 0);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+

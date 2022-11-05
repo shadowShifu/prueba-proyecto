@@ -1,0 +1,59 @@
+.linea-form{
+    height: 40px;
+    width: 100%;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.form-element{
+    width: calc(100%/6);
+    height: 100%;
+    font-size: 0.5em;
+    background-color: white;
+    border: 2px solid rgb(210, 210, 210);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-list{
+    background-color: blue;
+    color: white;
+    padding: 4%;
+    cursor: pointer;
+}
+.icon-edit{
+    background-color: rgb(255, 89, 0);
+    color: white;
+    padding: 4%;
+    cursor: pointer;
+}
+.icon-delete{
+    background-color: red;
+    color: white;
+    padding: 4%;
+    cursor: pointer;
+}
+
+.icon-list:hover{
+    background-color: white;
+    color: blue;
+    transition: 0.3s all;
+    font-size: 25px;
+}
+.icon-edit:hover{
+    background-color: white;
+    color: rgb(255, 89, 0);
+    transition: 0.3s all;
+    font-size: 25px;
+}
+.icon-delete:hover{
+    background-color: white;
+    color: red;
+    transition: 0.3s all;
+    font-size: 25px;
+}
