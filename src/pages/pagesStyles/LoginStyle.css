@@ -10,28 +10,57 @@
 .login{
     text-align: center;
     background-color: rgb(255, 255, 255);
-    padding: 6%;
+    padding: 2%;
     border-radius: 5%;
     width: 25%;
-    height: 13%;
+    height: 15%;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .login button{
-    height: 35px;
-    border-radius: 5px;
-    background-color: rgb(255, 89, 0);
-    color: white;
     border: 1px solid white;
     cursor: pointer;
-    margin-top: 10px;
 }
+
+.contScan{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.login .contScan button:nth-child(1){
+    background-color: rgb(2, 81, 4);
+    color: white;
+    border-radius: 10px;
+    width: 140px;
+    height: 100%;
+}
+
+.login .contScan button:nth-child(2){
+    background-color: rgb(255, 27, 6);
+    color: white;
+    border-radius: 10px;
+    width: 140px;
+    height: 100%;
+}
+
+.btnAdm{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 92, 4);
+    color: white;
+    border-radius: 10px;
+}
+
 .login button a{
     text-decoration: none;
     height: 35px;
-    background-color: rgb(255, 89, 0);
+    background-color: rgb(255, 92, 4);
     color: white;
     cursor: pointer;
     margin-top: 10px;

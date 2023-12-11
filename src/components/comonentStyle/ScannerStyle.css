@@ -12,17 +12,20 @@
 }
 
 .modal{
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 35%;
     background: #fff;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
     transition: 1s;
     transform: translateY(-0%);
     border-radius: 5%;
-    padding: 2%;
+    padding: 5%;
     text-align: center;
+}
+.modal-text{
+    margin-top: -4%;
 }
 
 .icon-close{
@@ -38,6 +41,7 @@
     transform: translateY(-200%);
 }
 .qr{
-    height: 400px;
-    width: 400px;
+    margin-top: 5%;
+    height: 80%;
+    width: 80%;
 }

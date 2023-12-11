@@ -1,6 +1,9 @@
+body{
+    background-color: #ffffff11;
+}
 .lista_empleados{
-    width: 80%;
-    padding: 5%;
+    width: 75%;
+    padding: 3%;
     background-color: white;
     margin: 0 auto;
     box-shadow: -3px 3px 2px 3px yellow;
@@ -15,7 +18,7 @@
     flex-direction: row;
     width: 100%;
     height: 30px;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 
 .linea-form{
@@ -57,6 +60,22 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.contSelect{
+    display: flex;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.lbl{
+    font-size: 0.5em;
+    margin-right: 1em;
+}
+
+.selectStyle{
+    font-size: .5em;
+    cursor: pointer;
+}
 
 .btn-export:hover{
     background-color: red;
@@ -65,4 +84,49 @@
 .btn-add:hover{
     background-color: rgb(73, 179, 255);
     color: white;
+}
+
+
+.icon-list{
+    background-color: blue;
+    color: white;
+    padding: 4%;
+    cursor: pointer;
+}
+.icon-edit{
+    background-color: rgb(255, 89, 0);
+    color: white;
+    padding: 4%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+
+.icon-delete{
+    background-color: red;
+    color: white;
+    padding: 4%;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.icon-list:hover{
+    background-color: white;
+    color: blue;
+    transition: 0.3s all;
+    font-size: 25px;
+}
+.icon-edit:hover{
+    background-color: white;
+    color: rgb(255, 89, 0);
+    transition: 0.3s all;
+    font-size: 25px;
+    
+}
+
+.icon-delete:hover{
+    background-color: white;
+    color: red;
+    transition: 0.3s all;
+    font-size: 25px;
 }

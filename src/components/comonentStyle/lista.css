@@ -32,6 +32,8 @@
     padding: 4%;
     cursor: pointer;
 }
+
+
 .icon-delete{
     background-color: red;
     color: white;
@@ -51,6 +53,7 @@
     transition: 0.3s all;
     font-size: 25px;
 }
+
 .icon-delete:hover{
     background-color: white;
     color: red;
